@@ -1,14 +1,14 @@
 {
-    "name": "pwalkow/mongodb-acl-bundle",
+    "name": "dinhkhanh/mongodb-acl-bundle",
     "type": "symfony-bundle",
     "description": "MongoDB ACL Bundle",
     "keywords": ["security", "ACL", "MongoDB"],
-    "homepage": "https://github.com/PWalkow/MongoDBAclBundle",
+    "homepage": "https://github.com/dinhkhanh/MongoDBAclBundle",
     "license": "MIT",
     "authors": [
         {
             "name": "contributors",
-            "homepage": "https://github.com/PWalkow/MongoDBAclBundle/contributors"
+            "homepage": "https://github.com/dinhkhanh/MongoDBAclBundle/contributors"
         }
     ],
     "require": {
@@ -24,5 +24,5 @@
             "PWalkow\\MongoDBAclBundle": ""
         }
     },
-    "target-dir": "PWalkow/MongoDBAclBundle"
+    "target-dir": "dinhkhanh/MongoDBAclBundle"
 }
