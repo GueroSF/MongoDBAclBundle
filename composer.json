@@ -28,6 +28,5 @@
         "psr-4": {
             "dinhkhanh\\MongoDBAclBundle\\": ""
         }
-    },
-    "target-dir": "dinhkhanh/MongoDBAclBundle"
+    }
 }
