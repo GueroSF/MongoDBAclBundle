@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Tests\Security\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Tests\Security\Domain;
 
 use Symfony\Component\Security\Acl\Domain\Acl;
 use Symfony\Component\Security\Acl\Domain\Entry;
@@ -9,7 +9,7 @@ use Symfony\Component\Security\Acl\Domain\ObjectIdentity;
 use Symfony\Component\Security\Acl\Domain\UserSecurityIdentity;
 use Symfony\Component\Security\Acl\Exception\AclNotFoundException;
 use Symfony\Component\Security\Acl\Exception\NotAllAclsFoundException;
-use PWalkow\MongoDBAclBundle\Security\Domain\AclProvider;
+use Dinhkhanh\MongoDBAclBundle\Security\Domain\AclProvider;
 
 /**
  * @covers AclProvider

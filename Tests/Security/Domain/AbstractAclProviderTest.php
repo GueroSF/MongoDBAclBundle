@@ -1,11 +1,11 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Tests\Security\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Tests\Security\Domain;
 
 use Doctrine\MongoDB\Collection;
 use Doctrine\MongoDB\Connection;
 use Doctrine\MongoDB\Database;
-use PWalkow\MongoDBAclBundle\Security\Domain\AclProvider;
+use Dinhkhanh\MongoDBAclBundle\Security\Domain\AclProvider;
 
 /**
  * @author Piotr Walków <walkowpiotr@gmail.com>

@@ -7,12 +7,12 @@ Installation using composer
 To install MongoDBAclBundle using composer add following line to you composer.json file::
 
     # composer.json
-    "pwalkow/mongodb-acl-bundle": "dev-master"
+    "dinhkhanh/mongodb-acl-bundle": "dev-master"
 
 Use the composer update command to start the installation. After the installation add following line into the bundles array in your AppKernel.php file::
 
     # AppKernel.php
-    new PWalkow\MongoDBAclBundle\PWalkowMongoDBAclBundle()
+    new Dinhkhanh\MongoDBAclBundle\DinhkhanhMongoDBAclBundle()
 
 Configuration
 -------------
@@ -20,7 +20,7 @@ Configuration
 To use the MongoDB Acl Provider, the minimal configuration is adding acl_provider to the MongoDb config in config.yml::
 
     # app/config/config.yml
-    pwalkow_mongo_db_acl:
+    dinhkhanh_mongo_db_acl:
         acl_provider: 
             default_database: %mongodb_database_name%
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Security\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Security\Domain;
 
 use Doctrine\MongoDB\Cursor;
 use Doctrine\MongoDB\Connection;

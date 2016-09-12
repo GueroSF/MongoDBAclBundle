@@ -1,8 +1,8 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Security\Problematic\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Security\Problematic\Domain;
 
-use PWalkow\MongoDBAclBundle\Security\Problematic\Model\PermissionContextInterface;
+use Dinhkhanh\MongoDBAclBundle\Security\Problematic\Model\PermissionContextInterface;
 use Symfony\Component\Security\Acl\Model\AuditableEntryInterface;
 use Symfony\Component\Security\Acl\Model\SecurityIdentityInterface;
 

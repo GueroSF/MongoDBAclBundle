@@ -6,7 +6,7 @@
 
     <parameters>
         <!-- security/user -->
-        <parameter key="doctrine_mongodb.odm.security.acl.provider.class">PWalkow\MongoDBAclBundle\Security\Domain\MutableAclProvider</parameter>
+        <parameter key="doctrine_mongodb.odm.security.acl.provider.class">Dinhkhanh\MongoDBAclBundle\Security\Domain\MutableAclProvider</parameter>
     </parameters>
 
     <services>
@@ -29,8 +29,8 @@
         <service id="secuity.acl.connection" parent="doctrine_mongodb.odm.default_connection">
         </service>
 
-        <service id="pwalkow.acl_manager"
-                 class="PWalkow\MongoDBAclBundle\Security\Problematic\Domain\AclManager"
+        <service id="dinhkhanh.acl_manager"
+                 class="Dinhkhanh\MongoDBAclBundle\Security\Problematic\Domain\AclManager"
         >
             <argument type="service" id="security.acl.provider" />
             <argument type="service" id="security.token_storage" />

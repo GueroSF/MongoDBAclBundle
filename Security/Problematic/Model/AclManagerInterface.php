@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Security\Problematic\Model;
+namespace Dinhkhanh\MongoDBAclBundle\Security\Problematic\Model;
 
 use Symfony\Component\Security\Acl\Model\DomainObjectInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;

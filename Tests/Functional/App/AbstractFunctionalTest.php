@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Tests\App;
+namespace Dinhkhanh\MongoDBAclBundle\Tests\App;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\BrowserKit\Client;

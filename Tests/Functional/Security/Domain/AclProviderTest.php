@@ -1,10 +1,10 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Tests\Functional\Security\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Tests\Functional\Security\Domain;
 
-use PWalkow\MongoDBAclBundle\Security\Domain\MutableAclProvider;
-use PWalkow\MongoDBAclBundle\Security\Domain\AclProvider;
-use PWalkow\MongoDBAclBundle\Tests\App\AbstractFunctionalTest;
+use Dinhkhanh\MongoDBAclBundle\Security\Domain\MutableAclProvider;
+use Dinhkhanh\MongoDBAclBundle\Security\Domain\AclProvider;
+use Dinhkhanh\MongoDBAclBundle\Tests\App\AbstractFunctionalTest;
 use Symfony\Component\Security\Acl\Model\AclProviderInterface;
 use Symfony\Component\Security\Acl\Model\MutableAclProviderInterface;
 

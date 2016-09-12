@@ -1,10 +1,10 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Tests\Security\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Tests\Security\Domain;
 
 use Symfony\Component\Security\Acl\Domain\PermissionGrantingStrategy;
 use Symfony\Component\Security\Acl\Domain\ObjectIdentity;
-use PWalkow\MongoDBAclBundle\Security\Domain\AclProvider;
+use Dinhkhanh\MongoDBAclBundle\Security\Domain\AclProvider;
 
 class AclProviderBenchmarkTest extends AbstractAclProviderTest
 {

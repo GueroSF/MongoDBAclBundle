@@ -1,10 +1,10 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle;
+namespace Dinhkhanh\MongoDBAclBundle;
 
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use PWalkow\MongoDBAclBundle\DependencyInjection\MongoDBAclExtension;
+use Dinhkhanh\MongoDBAclBundle\DependencyInjection\MongoDBAclExtension;
 
 /**
  * @author Richard Shank <develop@zestic.com>

@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\DependencyInjection;
+namespace Dinhkhanh\MongoDBAclBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
@@ -44,7 +44,7 @@ class MongoDBAclExtension extends Extension
 
     public function getAlias()
     {
-        return 'pwalkow_mongo_db_acl';
+        return 'dinhkhanh_mongo_db_acl';
     }
 
     /**

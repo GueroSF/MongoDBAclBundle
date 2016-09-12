@@ -1,8 +1,8 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Tests\Functional\Command;
+namespace Dinhkhanh\MongoDBAclBundle\Tests\Functional\Command;
 
-use PWalkow\MongoDBAclBundle\Command\InitAclMongoDBCommand;
+use Dinhkhanh\MongoDBAclBundle\Command\InitAclMongoDBCommand;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 use Symfony\Bundle\FrameworkBundle\Console\Application;

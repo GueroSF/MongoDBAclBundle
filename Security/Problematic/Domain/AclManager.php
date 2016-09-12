@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Security\Problematic\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Security\Problematic\Domain;
 
 use Symfony\Component\Security\Acl\Exception\NoAceFoundException;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;

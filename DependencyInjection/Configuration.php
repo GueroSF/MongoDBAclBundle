@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\DependencyInjection;
+namespace Dinhkhanh\MongoDBAclBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
@@ -31,7 +31,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('pwalkow_mongo_db_acl');
+        $rootNode = $treeBuilder->root('dinhkhanh_mongo_db_acl');
 
         $this->addAclProviderSection($rootNode);
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Security\Problematic\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Security\Problematic\Domain;
 
 use Doctrine\MongoDB\Connection;
-use PWalkow\MongoDBAclBundle\Security\Problematic\Model\AclManagerInterface;
-use PWalkow\MongoDBAclBundle\Security\Problematic\Model\PermissionContextInterface;
+use Dinhkhanh\MongoDBAclBundle\Security\Problematic\Model\AclManagerInterface;
+use Dinhkhanh\MongoDBAclBundle\Security\Problematic\Model\PermissionContextInterface;
 use Symfony\Component\Security\Acl\Domain\ObjectIdentity;
 use Symfony\Component\Security\Acl\Domain\RoleSecurityIdentity;
 use Symfony\Component\Security\Acl\Domain\UserSecurityIdentity;

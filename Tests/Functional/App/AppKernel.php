@@ -13,7 +13,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
 
             // bundle to test
-            new PWalkow\MongoDBAclBundle\MongoDBAclBundle(),
+            new Dinhkhanh\MongoDBAclBundle\MongoDBAclBundle(),
         );
 
         return $bundles;

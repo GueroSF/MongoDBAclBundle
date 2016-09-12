@@ -1,6 +1,6 @@
 <?php
 
-namespace PWalkow\MongoDBAclBundle\Security\Domain;
+namespace Dinhkhanh\MongoDBAclBundle\Security\Domain;
 
 use Doctrine\Common\PropertyChangedListener;
 use Doctrine\MongoDB\Connection;
