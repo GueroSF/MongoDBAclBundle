@@ -5,7 +5,7 @@ This bundle allows the use of MongoDB as the storage layer for the Symfony ACLs 
 
 Symfony ~3.0 ready.
 
-[![Build Status](https://travis-ci.org/Dinhkhanh/MongoDBAclBundle.svg?branch=master)](http://travis-ci.org/Dinhkhanh/MongoDBAclBundle)
+[![Build Status](https://travis-ci.org/dinhkhanh/MongoDBAclBundle.svg?branch=master)](http://travis-ci.org/Dinhkhanh/MongoDBAclBundle)
 
 
 Documentation
