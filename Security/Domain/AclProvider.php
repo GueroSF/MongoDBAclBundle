@@ -600,4 +600,43 @@ class AclProvider implements AclProviderInterface
             'sid_table_name' => 'aclSecurityIdentities',
         ];
     }
+        /**
+     * This method is called when an ACL instance is retrieved from the cache.
+     *
+     * @param AclInterface $acl
+     */
+    private function updateAceIdentityMap(AclInterface $acl)
+    {
+        foreach (array('classAces', 'classFieldAces', 'objectAces', 'objectFieldAces') as $property) {
+            $reflection = new \ReflectionProperty($acl, $property);
+            $reflection->setAccessible(true);
+            $value = $reflection->getValue($acl);
+            if ('classAces' === $property || 'objectAces' === $property) {
+                $this->doUpdateAceIdentityMap($value);
+            } else {
+                foreach ($value as $field => $aces) {
+                    $this->doUpdateAceIdentityMap($value[$field]);
+                }
+            }
+            $reflection->setValue($acl, $value);
+            $reflection->setAccessible(false);
+        }
+    }
+
+    /**
+     * Does either overwrite the passed ACE, or saves it in the global identity
+     * map to ensure every ACE only gets instantiated once.
+     *
+     * @param array &$aces
+     */
+    private function doUpdateAceIdentityMap(array &$aces)
+    {
+        foreach ($aces as $index => $ace) {
+            if (isset($this->loadedAces[$ace->getId()])) {
+                $aces[$index] = $this->loadedAces[$ace->getId()];
+            } else {
+                $this->loadedAces[$ace->getId()] = $ace;
+            }
+        }
+    }
 }
